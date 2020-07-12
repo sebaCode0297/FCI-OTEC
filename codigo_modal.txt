@@ -1,0 +1,337 @@
+<div>
+            <div>
+                <div class="img_fondo">
+
+                    <li>
+                        <a id="img">
+                            <img src="img/icon_cursos/Manejo_X.png" alt="" width="110" height="140">
+                        </a>
+
+                        <div class="container-modal">
+                            <!-- Button to Open the Modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          Conduccion
+                        </button>
+
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">CURSOS DE MANEJO</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <a href="mailto:contacto@otecfci.com"></a>
+                                        </div>
+                                        <div class="modal-body">
+                                            <a href="mailto:contacto@otecfci.com"></a>
+                                        </div>
+                                        <div class="modal-body">
+                                            <a href="mailto:contacto@otecfci.com"></a>
+                                        </div>
+                                        <div class="modal-body">
+                                            <a href="mailto:contacto@otecfci.com"></a>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <a id="img">
+                            <img src="img/icon_cursos/Cursos_X.png" alt="" width="110" height="140">
+                        </a>
+                        <div class="container-modal">
+                            <!-- Button to Open the Modal -->
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          Leer Cursos
+                        </button>
+
+                            <!-- The Modal -->
+                            <div class="modal" id="myModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+
+                                        <!-- Modal Header -->
+                                        <div class="modal-header">
+                                            <h4 class="modal-title">Modal Heading</h4>
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        </div>
+
+                                        <!-- Modal body -->
+                                        <div class="modal-body">
+                                            <a href="mailto:contacto@otecfci.com"></a>
+                                        </div>
+                                        <div class="modal-body">
+                                            <a href="mailto:contacto@otecfci.com"></a>
+                                        </div>
+                                        <div class="modal-body">
+                                            <a href="mailto:contacto@otecfci.com"></a>
+                                        </div>
+                                        <div class="modal-body">
+                                            <a href="mailto:contacto@otecfci.com"></a>
+                                        </div>
+
+                                        <!-- Modal footer -->
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <li>
+                            <a id="img">
+                                <img src="img/icon_cursos/Tecnicas_X.png" alt="" width="110" height="140">
+                            </a>
+                            <div class="container-modal">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          Tecnicas
+                        </button>
+
+                                <!-- The Modal -->
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">CURSOS DE TECÍCAS</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <a id="img">
+                                <img src="img/icon_cursos/Seguridad_X.png" alt="" width="110" height="140">
+                            </a>
+                            <div class="container-modal">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          Seguridad
+                        </button>
+
+                                <!-- The Modal -->
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">CURSOS DE SEGURIDAD</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <a id="img">
+                                <img src="img/icon_cursos/Capacitacion_X.png" alt="" width="110" height="140">
+                            </a>
+                            <div class="container-modal">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          Capacitacion
+                        </button>
+
+                                <!-- The Modal -->
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">CURSOS DE CAPACITACION</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <a id="img">
+                                <img src="img/icon_cursos/Higiene_X.png" alt="" width="110" height="140">
+                            </a>
+                            <div class="container-modal">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          Higiene
+                        </button>
+
+                                <!-- The Modal -->
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">CURSOS DE HIGIENE</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <a id="img">
+                                <img src="img/icon_cursos/Quimicos_y_gases_X.png" alt="" width="110" height="140">
+                            </a>
+                            <div class="container-modal">
+                                <!-- Button to Open the Modal -->
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                          QUIMICOS
+                        </button>
+
+                                <!-- The Modal -->
+                                <div class="modal" id="myModal">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+
+                                            <!-- Modal Header -->
+                                            <div class="modal-header">
+                                                <h4 class="modal-title">CURSOS DE QUIMICOS Y GASES</h4>
+                                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            </div>
+
+                                            <!-- Modal body -->
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+                                            <div class="modal-body">
+                                                <a href="mailto:contacto@otecfci.com"></a>
+                                            </div>
+
+                                            <!-- Modal footer -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </li>
+                </div>
+            </div>
+        </div>
+        </section>
+
+       

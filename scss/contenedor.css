@@ -1,0 +1,197 @@
+.contenedor{
+    border: solid 3px red;
+    border-right: white;
+    border-left: white;
+    border-width: 5px;
+    width: 98%;
+    height: 370px;
+    list-style: none;
+    margin: 0px;
+    padding: 2px 2px;
+    margin-left: 20px;
+}
+
+#img{
+    float: left;
+    margin-left: 35px;
+    width: 160px;
+    height: 170px;
+    background: white;
+    border-radius: 60%;
+    margin-top: 20px;
+    border: solid 4px red;
+    text-align: center;
+}
+
+img {
+    border: 0;
+    margin-top: 10px;
+    text-align: center;
+}
+/********************************************/
+/********************************************/
+
+
+/********************************************/
+/* Propiedades img-fondo contenedor de cursos */
+/********************************************/
+
+.img_fondo{
+    
+    width: 100%;
+    height: 280px;
+}
+
+.img_fondo{
+    background-image: url("../img//fondo_pagina/fondo_cursos.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    background-attachment: contain;
+}
+
+/********************************************/
+/********************************************/
+
+
+/********************************************/
+/* Style propiedades titulos Page-Cursos */
+/********************************************/
+
+#curso{
+    font-size: 35px;
+    color: red;
+    margin-left: 25px;
+}
+.item-certi{
+    color: red;
+    text-align: center;
+    font-size: 39px;
+
+}
+
+.item-title{
+    color: black;
+    text-align: left;
+    margin-left: 45px;
+    font-size: 85px;
+    letter-spacing: 9px;
+    height: 190px;
+    margin-top: 150px;
+}
+
+/********************************************/
+/* End seccion titulos*/
+/********************************************/
+
+    #img {/*Ancho y altura son modificables al requerimiento de cada uno*/
+        overflow: hidden;
+    }
+
+    /* Propiedades contenedor y stilo de los botones */
+    .container_btn{
+        width: 100%;
+        height: 35px;
+        margin-top: 210px;
+        text-align: center;
+        margin-left: 13px;
+    }
+
+    .style_btn{
+        width: 100px;
+        border-radius: 100%;
+        list-style: none;
+        cursor: pointer;
+        background-color: rgb(114, 5, 5);
+        color: white;
+    }
+
+
+      /********************************************/
+      /* Seccion @media queries web completa */
+      /********************************************/
+
+      /* Ahora podemos cambiar solo la propiedad background-image */
+
+@media (max-width: 480px) {
+    .img_fondo {
+        background-image: url("../img/fondo_pagina/fondo_cursos.png");
+    }
+}
+@media (max-width: 768px) {
+    .contenedor {
+        background-image: url("../img/fondo_pagina/fondo_cursos.png");
+    }
+}
+@media (max-width: 1200px) {
+    .contenedor {
+        background-image: url("../img/fondo_pagina/fondo_cursos.png");
+    }
+}
+
+/********************************************/
+            /* End seccion */
+/********************************************/
+
+
+/********************************************/
+    /* seccion cuadro de cursos style */
+/********************************************/
+
+body.red .btn-primary {
+    padding: 10px 27px;
+    border-radius: 100%;
+    font-weight: bold;
+    
+    color: white;
+    background-color: red;
+    border-color: white;
+    border: solid white;
+    background: none;
+    margin-left: 31px;
+    margin-top: 22px;
+}
+
+.modal {
+    display: none;
+    overflow: hidden;
+    position: fixed;
+    margin-top: 150px;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    opacity: inherit;
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+    background: transparent;
+    opacity: 02;
+    text-align: center;
+}
+
+modal-body ul{
+    list-style: noen;
+    display: block;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.modal-backdrop.in {
+    opacity: 0.1;
+    filter: alpha(opacity=50);
+}
+/********************************************/
+/********************************************/

@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=euc-jp">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <title>OTEC_FCI</title>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+
+    <!-- Links Style-CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" href="scss/skin.css">
+    <link rel="stylesheet" href="scss/logo_responsive.css">
+    <link rel="stylesheet" href="scss/contenedor.css">
+    <link rel="stylesheet" href="scss/modal.css">
+    <link rel="stylesheet" href="scss/media_queries.css">
+    <!-- End CSS -->
+
+    <!-- Link Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <script src="script/index.js"></script>
+    <script src="script/click_img.js"></script>
+    <!-- End links Javascript -->
+
+    <!-- Links web Javascript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- End Links -->
+
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-159327981-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-159327981-1');
+    </script>
+
+</head>
+
+<body id="wrapper">
+
+    <section id="top-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12 top-header-links">
+                    <ul class="contact_links">
+                        <li><i class="fa fa-phone"></i><a href="#">+56 9 4411 0212</a></li>
+                        <li><i class="fa fa-phone"></i><a href="#">+56 9 4243 4003</a></li>
+                        <li><i class="fa fa-envelope"></i><a href="mailto:contacto@otecfci.com">contacto@otecfci.com</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                    <ul class="social_links">
+                        <li><a href="https://www.facebook.com/profile.php?id=100046110468620&epa=SEARCH_BOX"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/formacion_y_certificacion_i/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        </div>
+
+    </section>
+
+    <header>
+        <nav class="navbar navbar-inverse">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			  </button>
+                    <a class="navbar-brand" href="#">
+                        <h1>OTEC_F.C.I</h1>Formacion y Certificacion Integral.</a>
+                </div>
+                <div id="navbar" class="collapse navbar-collapse navbar-right">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="features.html">CURSOS</a></li>
+                        <li><a href="about.html">CONOCENOS</a></li>
+                        <li><a href="portfolio.html">CLIENTES</a></li>
+                        <li class="active"><a href="contact.html">CONTACTENOS</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
+        <!--/.nav-ends -->
+    </header>
+
+    <section id="top_banner">
+        <div class="banner">
+            <br> <br> <br>
+            <h1 class="item-title" class="logo">CURSO Y<br> CAPACITACIONES</h1>
+        </div>
+        </div>
+    </section>
+    <br>
+
+    <div class="contenedor">
+        <!-- <h4 id="curso">CURSOS EN DISPONIBILIDAD</h4>-->
+
+        <br><br>
+        <section id="contact-page">
+            <div class="container">
+                <div class="section-heading text-center">
+                    <h2>Escribenos y <span>te contactamos.</span></h2>
+                    <br>
+                </div>
+                <div class="row contact-wrap">
+                    <div class="status alert alert-success" style="display: none"></div>
+                    <form id="main-contact-form" class="contact-form" name="contact-form" method="post" action="envio.php">
+                        <div class="col-sm-5 col-sm-offset-1">
+                            <div class="form-group">
+                                <label>Nombre Completo</label>
+                                <input type="text" name="name" class="form-control" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label>Correo</label>
+                                <input type="email" name="email" class="form-control" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label>Celular</label>
+                                <input type="number" class="form-control" name="number" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label>Empresa</label>
+                                <input type="text" class="form-control" name="company" required="required">
+                            </div>
+                        </div>
+                        <div class="col-sm-5">
+                            <div class="form-group">
+                                <label>Curso(s)</label>
+                                <input type="text" name="subject" class="form-control" required="required">
+                            </div>
+                            <div class="form-group">
+                                <label>Mensaje</label>
+                                <textarea name="message" id="message" required="required" class="form-control" rows="8"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" name="submit" class="btn btn-default submit-button">Enviar consulta <i class="fa fa-caret-right"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+        <h1 class="item-certi">CERTIFICACIONES</h1><br>
+        <hr class="hr">
+        <section id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12 block">
+                        <div class="col-md-10 col-xs-10">
+                            <p><img src="img/logos/ntc-acre.png" width="360" height="160"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 block">
+                        <div class="col-md-10 col-xs-10">
+                            <p><img src="img/logos/impul.jpeg" width="360" height="160"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-12 block">
+                        <div class="col-md-10 col-xs-10">
+                            <p><img src="img/logos/inn_chile.png" width="360" height="160"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="bottom-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6 col-xs-12 btm-footer-links">
+                        <a href="#">Politica de Privacidad.</a>
+                        <a href="#">Terminos de contratacion.</a>
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-xs-12 copyright">
+                        Developed by <a href="#">s.c.developer</a> designed by <a href="mailto:cami.blanco.n@gmail.com">C.White.</a> | <a href="mailto:">M.bobo</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--
+    <section id="top_banner">
+        <div class="banner">
+            <div class="inner text-center">
+                <h1 class="banner_heading"><img id="logo" src="img/logos/FCI.nuevo.png"></h1>
+            </div>
+        </div>
+        <div class="page_info">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8 col-sm-8 col-xs-6">
+                        <h4>Hola</h4>
+                    </div>
+                    <div class="col-md-4 col-sm-4 col-xs-6" style="text-align:right;"><span class="sep"> </span><span class="current"></span></div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+    </section>
+    -->
+        <script src="script/click_img.js"></script>
+</body>
+
+</html>

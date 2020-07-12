@@ -1,0 +1,48 @@
+@media (max-width:768px){
+	#logo{
+        max-width: 100%;
+		margin:auto;
+		width:357px;
+		height:230px;
+	}
+	#logo img{
+		display:none;
+	}
+	img #logo{
+		width:100%;
+	}
+}
+
+.fa-fa-lightbulb-o-sl-layers-boxicon{
+    font-size: 30%;
+}
+
+p{
+    font-size: 17px;
+    color: black;
+}
+
+.subsection2{
+    margin: 0;
+    background: transparent;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-image: image('img/fondos/aula6.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+body::before{
+    content: "";
+    width: 100%;
+    min-height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: linear-gradient(blue,red);
+
+    opacity: 0.5;
+    z-index: 0;
+}
